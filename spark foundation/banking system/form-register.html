@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- CSS only -->
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<title class="fs-1">Spark Bank</title>
+
+
+</head>
+
+<!-- navbar -->
+<div class="main">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Spark Bank</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+				aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="form-register.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="table.php">View Customers</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="t_history.php">Transaction</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- carousel -->
+	<div class="slideshow-container">
+		<div class="slideshow" data-transition="fade">
+			<input type="radio" name="ss2" id="ss2-item-1" class="slideshow--bullet" checked="checked" />
+			<div class="slideshow--item">
+				<img src="./b3.jpg" />
+				<label for="ss2-item
+						-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+				<label for="ss2-item-2" class="slideshow--nav slideshow--nav-next">Go to slide 2</label>
+			</div>
+
+			<input type="radio" name="ss2" id="ss2-item-2" class="slideshow--bullet" />
+			<div class="slideshow--item">
+				<img src="./b2.jpg" />
+				<label for="ss2-item-1" class="slideshow--nav slideshow--nav-previous">Go to slide 1</label>
+				<label for="ss2-item-3" class="slideshow--nav slideshow--nav-next">Go to slide 3</label>
+			</div>
+
+			<input type="radio" name="ss2" id="ss2-item-3" class="slideshow--bullet" />
+			<div class="slideshow--item">
+				<img src="./b4.jpg" />
+				<label for="ss2-item-2" class="slideshow--nav slideshow--nav-previous">Go to slide 2</label>
+				<label for="ss2-item-1" class="slideshow--nav slideshow--nav-next">Go to slide 1</label>
+			</div>
+			<!-- cards-->
+			<div class="three_cards">
+				<div class="card" style="width: 18rem;">
+					<img src="transaction.webp" class="card-img-top" alt="...">
+					<div class="card-body">
+						<a href="transaction.html" class="btn btn-primary">Make Transaction</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img src="customer.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<a href="table.php" class="btn btn-primary">View Customers</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img src="Thistory.jpg" class="card-img-top" alt="...">
+					<div class="card-body ">
+						<a href="t_history.php" class="btn btn-primary">Transaction History</a>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- Footer -->
+			<footer class="page-footer font-small blue" id="ftr">
+				<!-- Copyright -->
+				<div class="footer-copyright text-center py-3">© 2020 Copyright:
+					<a href="/"> Spark Bank</a>
+				</div>
+			</footer>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
